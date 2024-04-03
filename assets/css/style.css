@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fonte-principal: "Poppins", sans-serif;
+    --fonte-secundaria: ;
+
+    --cor-primaria: #000;
+    --cor-secundaria: #D4CFC8;
+    --cor-terciaria: #637036;
+    --cor-quaternaria: #DBC9A2;
+
+    --peso-fonte-negrito: 700;
+    --peso-fonte-leve: 500;
+    --peso-fonte-normal: 600;
+    --peso-fonte-fofa: 400;
+
+    --gradient: linear-gradient(
+        to right,
+        rgb(149 114 252 ),
+        rgb(67 231 173 ),
+        rgb(226 212 92 ),
+    )
+}
+
+body{
+    background-color: var(--cor-quaternaria);
+}
+
+.cabecalho{
+    display: flex;
+    background-color: var(--cor-terciaria);
+    justify-content: space-around;
+    align-items: center;
+    gap: 895px;
+}
+
+.navBar{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-size: 1.5rem;
+}
+
+.navBarItem{
+    font-family: var(--fonte-principal);
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bannerContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.banner img{
+    border-radius: 6px;
+}
+
+.conteudoContainer1{
+    padding: 100px;
+    display: flex;
+    gap: 91px;
+    align-items: center;
+}
+
+.conteudoContainer1 a{
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-size: 1.3rem;
+    font-weight: var(--peso-fonte-leve);
+    color: var(--cor-terciaria);
+}
+
+.conteudoContainer2{
+    padding: 100px;
+    display: flex;
+    gap: 91px;
+    align-items: center;
+}
+
+.conteudoContainer2 a{
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-size: 1.3rem;
+    font-weight: var(--peso-fonte-leve);
+    color: var(--cor-terciaria);
+}
+
+.conteudoTexto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudoTextoTexto{
+    text-align: justify;
+    font-family: var(--fonte-principal);
+    font-size: 1.3rem;
+    font-weight: var(--peso-fonte-leve);
+}
+
