@@ -50,11 +50,18 @@ body{
     text-decoration: none;
     color: var(--cor-secundaria);
     font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.navBar a:hover{
+    color: #d4cfc88c;
 }
 
 .navBarItem{
     font-family: var(--fonte-principal);
 }
+
+
 
 main{
     max-width: 1200px;
@@ -87,7 +94,7 @@ main{
 }
 
 .conteudoContainer2{
-    padding: 100px;
+    padding: 0 100px;
     display: flex;
     gap: 91px;
     align-items: center;
@@ -113,4 +120,24 @@ main{
     font-size: 1.3rem;
     font-weight: var(--peso-fonte-leve);
 }
+
+.conteudoContainer3{
+    margin-top: 250px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+}
+
+.conteudoContainer4{
+    margin-top: 250px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+}
+
+
 
