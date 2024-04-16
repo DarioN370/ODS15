@@ -64,7 +64,7 @@ main{
 .bannerContainer{
     display: flex;
     justify-content: center;
-    margin-top: 45px;
+    margin-top: 29px;
 }
 
 .banner img{
@@ -72,10 +72,11 @@ main{
 }
 
 .conteudoContainer1{
-    padding: 100px;
+    margin-top: 75px;
     display: flex;
     gap: 91px;
     align-items: center;
+    
 }
 
 .conteudoContainer1 a{
@@ -87,7 +88,7 @@ main{
 }
 
 .conteudoContainer2{
-    padding: 100px;
+    margin-top: 75px;
     display: flex;
     gap: 91px;
     align-items: center;
@@ -112,5 +113,9 @@ main{
     font-family: var(--fonte-principal);
     font-size: 1.3rem;
     font-weight: var(--peso-fonte-leve);
+}
+
+.conteudoContainer3{
+    margin-top: 150px;
 }
 
