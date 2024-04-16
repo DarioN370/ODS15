@@ -19,6 +19,7 @@
     --peso-fonte-leve: 500;
     --peso-fonte-normal: 600;
     --peso-fonte-fofa: 400;
+    --peso-fonte-muito-fofa: 200;
 
     --gradient: linear-gradient(
         to right,
@@ -26,6 +27,10 @@
         rgb(67 231 173 ),
         rgb(226 212 92 ),
     )
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -50,11 +55,18 @@ body{
     text-decoration: none;
     color: var(--cor-secundaria);
     font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.navBar a:hover{
+    color: #d4cfc88c;
 }
 
 .navBarItem{
     font-family: var(--fonte-principal);
 }
+
+
 
 main{
     max-width: 1200px;
@@ -88,7 +100,11 @@ main{
 }
 
 .conteudoContainer2{
+<<<<<<< HEAD
     margin-top: 75px;
+=======
+    padding: 0 100px;
+>>>>>>> eba9bcd20471b9181ef5dd01cc32faeda6463615
     display: flex;
     gap: 91px;
     align-items: center;
@@ -116,6 +132,90 @@ main{
 }
 
 .conteudoContainer3{
+<<<<<<< HEAD
     margin-top: 150px;
 }
 
+=======
+    margin-top: 250px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+}
+
+.conteudoContainer4{
+    margin-top: 250px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+}
+
+footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 285px;
+    font-family: var(--fonte-principal);
+}
+
+.contatoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo{
+    font-weight: var(--peso-fonte-muito-fofa);
+    font-size: 2rem;
+}
+
+.botao a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.botao>a>p{
+    font-size: 2rem;
+    font-weight: var(--peso-fonte-negrito);
+}
+
+.botao a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.dadosContainer{
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 300px; /*TIRAR ISSO QUANDO FOR COLOCAR AS LINHAS NO FINAL DO SITE*/
+}
+
+.dadosContainer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: var(--cor-primaria);
+    font-weight: var(--peso-fonte-fofa);
+    font-size: 1.5rem;
+}
+
+.fisico , .digital{
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+
+
+
+>>>>>>> eba9bcd20471b9181ef5dd01cc32faeda6463615
